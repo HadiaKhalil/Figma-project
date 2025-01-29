@@ -13,7 +13,7 @@ const Footer = () => {
             </div>
             <div>
               <h3 className="md:text-[13px] text-[11px] lg:w-[430px] text-gray-500 py-3"> 
-                Audiophile is an all-in-one stop to fulfill your audio needs. We're a small team of music lovers and sound specialists who are devoted to helping you get the most out of personal audio. Come and visit our demo facility; we're open 7 days a week.
+              {`Audiophile is an all-in-one stop to fulfill your audio needs. We're a small team of music lovers and sound specialists who are devoted to helping you get the most out of personal audio. Come and visit our demo facility; we're open 7 days a week.`}
               </h3>
               <h3 className='md:text-[13px] text-[11px] lg:w-[430px] text-gray-500'>
                 Copyright 2021. All Rights Reserved
