@@ -22,7 +22,7 @@ const Hero = () => {
           </div>
           <div className='mt-10'>
             <Image
-              src="/images/bitmap11.png"
+              src="/images/Bitmap11.png"
               alt="XX99 MARK II HEADPHONES"
               className="object-cover rounded-lg w-full"
               width={645}
