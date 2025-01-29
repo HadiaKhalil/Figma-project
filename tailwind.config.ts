@@ -7,6 +7,7 @@ export default {
   
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/views/**/*.{js,ts,jsx,tsx,mdx}",
+    
   ],
   theme: {
     extend: {
@@ -18,3 +19,4 @@ export default {
   },
   plugins: [],
 } satisfies Config;
+
