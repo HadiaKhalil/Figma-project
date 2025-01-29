@@ -23,7 +23,7 @@ const Footer = () => {
           <div className="flex flex-col items-center lg:items-end "> 
             <div className="flex text-[12px] gap-6"> 
               <p className="cursor-pointer">HOME</p>
-              <p className="cursor-pointer text-orange-600">HEADPHONES</p>
+              <p className="cursor-pointer text-orange-700">HEADPHONES</p>
               <p className="cursor-pointer">SPEAKERS</p>
               <p className="cursor-pointer">EARPHONES</p>
             </div>
