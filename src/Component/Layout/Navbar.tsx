@@ -12,11 +12,15 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="bg-black text-white py-10">
+      <div className="bg-black text-white">
         <div className="container">
-          <div className="flex justify-between w-full items-center text-center">
+        <div className="container flex justify-between items-center py-10">
+          <div className="grid grid-cols-3 w-full items-center text-center">
             <div className="text-2xl font-semibold flex justify-start">
-              <p>audiophile</p>
+              <p>
+                audiophile
+
+              </p>
             </div>
             <div className="hidden md:flex justify-center text-[12px] gap-8">
               <p className="cursor-pointer">HOME</p>
@@ -55,6 +59,7 @@ const Navbar = () => {
             </div>
           </div>
         )}
+        </div>
       </div>
       <div>
         <hr />

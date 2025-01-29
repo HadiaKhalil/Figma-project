@@ -27,7 +27,7 @@ const Footer = () => {
               <p className="cursor-pointer">SPEAKERS</p>
               <p className="cursor-pointer">EARPHONES</p>
             </div>
-            <div className="flex gap-3 py-8"> 
+            <div className="flex gap-3 py-8  lg:items-end "> 
               <div className="cursor-pointer text-white hover:text-orange-700"><FaFacebook size={20} /></div>
               <div className="cursor-pointer text-white hover:text-orange-700"><FaTwitter size={20} /></div>
               <div className="cursor-pointer text-white hover:text-orange-700"><FaInstagramSquare size={20} /></div>
