@@ -14,7 +14,7 @@ const Navbar = () => {
     <div>
       <div className="bg-black text-white">
         <div className="container">
-        <div className="container flex justify-between items-center py-10">
+        <div className="flex justify-between items-center py-10">
           <div className="grid grid-cols-3 w-full items-center text-center">
             <div className="text-2xl font-semibold flex justify-start">
               <p>
