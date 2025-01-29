@@ -19,3 +19,16 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+body{
+  background-color: rgba(242, 242, 242, 1);
+  color: black;
+}
+
+.container{
+  @apply  mx-auto
+  md:px-16 px-6;
+
+}
+.text{
+border: 1px solid black;
+}
