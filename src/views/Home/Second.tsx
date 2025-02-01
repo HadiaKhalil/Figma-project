@@ -79,7 +79,8 @@ import Image from "next/image";
 export default function Second() {
   return (
     <div className="bg-gray-100 md:py-16 pb-10">
-      <div className="container grid md:grid-cols-3 md:gap-6">
+      <div className="container ">
+        <div className="grid md:grid-cols-3 md:gap-6">
         {products.map((product) => (
           <div key={product.id} className="flex flex-col items-center">
             <div className="w-24 h-24 z-10">
@@ -109,6 +110,7 @@ export default function Second() {
             </div>
           </div>
         ))}
+      </div>
       </div>
     </div>
   );
