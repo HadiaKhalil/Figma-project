@@ -1,29 +1,19 @@
 
+
+import AboutUs from "./AboutUs";
+import Cards from "./Cards";
 import Hero from "./Hero";
-
-import Layout from "@/Component/Layout"
-import Secondsection from "./Secondsection";
-import Second from "./Second";
-import Forth from "./Forth";
-import Grid from "./Grid";
-import Last from "./Last";
-
+import Layout from "@/Component/Layout";
 
 const Home = () => {
   return (
-    <Layout>
-
+    <Layout >
       <Hero />
-     
-  <Second />
-  <Secondsection />
-  <Forth />
-  <Grid />
-  <Last />
+      <Cards />
+      <AboutUs />
     </Layout>
+
   );
 };
 
 export default Home;
-
-

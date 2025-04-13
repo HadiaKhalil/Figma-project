@@ -28,9 +28,14 @@ body{
 
 .container{
   @apply  mx-auto
-  md:px-16 px-6;
+   px-4 mb-12;
+ 
 
 }
 .text{
 border: 1px solid black;
+} 
+
+body{
+  background-color: white;
 }
