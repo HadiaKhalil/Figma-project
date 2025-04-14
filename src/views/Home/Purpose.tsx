@@ -11,7 +11,7 @@ const Purpose = () => {
             <h1 className="font-bold text-white mb-4 font-inter text-3xl md:text-4xl lg:text-5xl leading-tight">OUR PURPOSE...</h1>
             
             <p className="text-white lg:mb-8 mb-4 font-poppins text-base md:text-lg lg:text-xl leading-relaxed ">
-              Help extend human longevity with 'Optimal Health'.
+              {`Help extend human longevity with 'Optimal Health'.`}
             </p>
             </div>
            <div className='lg:w-1/2 flex justify-center lg:justify-end mt-8 lg:mt-'>
