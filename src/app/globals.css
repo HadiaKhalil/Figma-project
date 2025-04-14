@@ -28,7 +28,7 @@ body{
 
 .container{
   @apply  mx-auto
-   px-4 mb-12;
+    px-4 mb-12;
  
 
 }

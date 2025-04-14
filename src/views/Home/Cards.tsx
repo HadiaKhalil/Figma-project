@@ -2,8 +2,9 @@ import React from 'react'
 import Image from "next/image";
 const Cards = () => {
     return (
-        <section className="px-4  bg-white">
-            <div className=" w-full h-full mx-auto  grid grid-cols-1 gap-3 md:grid-cols-2 mb-12">
+        <section className="bg-white ">
+            <div className="container">
+            <div className=" w-full  mx-auto  grid grid-cols-1 gap-3 md:grid-cols-2 mb-12 ">
                 <div className="relative rounded-xl overflow-hidden shadow-md">
                     <Image
                         src="/images/BGcol 1.png"
@@ -40,6 +41,7 @@ const Cards = () => {
                         </button>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
     )
