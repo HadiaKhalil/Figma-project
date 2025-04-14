@@ -7,6 +7,7 @@ import Layout from "@/Component/Layout";
 import OptimalSection from "./OptimalSection";
 import Optimalreverse from "./Optimalreverse";
 import Purpose from "./Purpose";
+import Mission from "./Mission";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <OptimalSection />
       <Optimalreverse />
       <Purpose />
+      <Mission />
     </Layout>
 
   );
