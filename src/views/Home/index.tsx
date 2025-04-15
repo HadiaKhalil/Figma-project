@@ -11,6 +11,8 @@ import Mission from "./Mission";
 import Products from "./Products"
 import ViewsSlider from "./VeiwsSlider";
 import Reverce from "./Reverce";
+import Questionsec from "./Questionsec"
+import InstagramSection from "./InstagramSection";
 const Home = () => {
   return (
     <Layout >
@@ -24,6 +26,8 @@ const Home = () => {
       <Mission />
       <Products />
       <ViewsSlider />
+      <Questionsec />
+      <InstagramSection />
     </Layout>
 
   );

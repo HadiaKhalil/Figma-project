@@ -4,8 +4,8 @@ const Hero = () => {
   return (
     <>
       <div className='container'>
-        <div className=' w-full  flex flex-col-reverse lg:flex-row  items-center gap-4 md:mt-24 mt-6  '>
-          <div className='max-w-[600px] w-full text-center lg:text-left'>
+        <div className=' w-full  m-auto flex flex-col-reverse lg:flex-row  items-center gap-4 md:mt-24 mt-6  '>
+          <div className='  w-1/2 text-center lg:text-left'>
             <h1 className=' font font-bold  md:text-[44px] text-[29px]  md:leading-[55px]  leading-[40px] text-[#9B37AE]'>Lorem ipsum dolor sit amet, consectetur adipiscing fsgrsggrdg</h1>
             <div className='flex gap-8 mt-3 text-[14px]'>
               <div className='flex items-center'>
@@ -18,7 +18,7 @@ const Hero = () => {
               <a className=' border border-[#4ACAC6] text-[#4ACAC6]  text-[14px] font-sembold md:text-[18px] px-6 py-1 rounded-[5px]  md:leading-[45px] leading-[25px]  hover:bg-blue-50 transition '>What is Ambrosia Global?</a>
             </div>
           </div>
-          <div className=''>
+          <div className='w-1/2'>
             <Image
               src="/images/1st.png"
               alt="Cape Kennedy 59"
