@@ -4,7 +4,7 @@ const Mission = () => {
   return (
     <div className='container mx-auto px-4'>
       <section className="mb-16">
-        <h2 className="text-[30px] md:text-[35px] lg:text-[45px] text-center leading-[35px] md:leading-[40px] lg:leading-[55px] tracking-[0px] mb-8 font-bold">
+        <h2 className="text-[30px] md:text-[35px] lg:text-[45px] lg:text-start text-center leading-[35px] md:leading-[40px] lg:leading-[55px] tracking-[0px] mb-8 font-bold">
           {`Lorem ipsum dolor sit amet, consectetur adipiscing`}
         </h2>
 

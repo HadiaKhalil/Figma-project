@@ -15,7 +15,7 @@ const Purpose = () => {
             </p>
             </div>
            <div className='lg:w-1/2 flex justify-center lg:justify-end mt-8 lg:mt-'>
-           <a className="border border-white text-white font-bold py-3 px-6 rounded-[5px] text-base md:text-lg lg:text-xl hover:bg-purple-800 transition">
+           <a className="border border-white text-white font-bold py-3 px-6 rounded-[5px] mb-10 text-base md:text-lg lg:text-xl hover:bg-purple-800 transition">
               Buy All Products
             </a>
            </div>

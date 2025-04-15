@@ -8,7 +8,9 @@ import OptimalSection from "./OptimalSection";
 import Optimalreverse from "./Optimalreverse";
 import Purpose from "./Purpose";
 import Mission from "./Mission";
-
+import Products from "./Products"
+import ViewsSlider from "./VeiwsSlider";
+import Reverce from "./Reverce";
 const Home = () => {
   return (
     <Layout >
@@ -17,8 +19,11 @@ const Home = () => {
       <AboutUs />
       <OptimalSection />
       <Optimalreverse />
+      <Reverce />
       <Purpose />
       <Mission />
+      <Products />
+      <ViewsSlider />
     </Layout>
 
   );
