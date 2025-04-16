@@ -7,7 +7,8 @@ export default function FaqSection() {
 
   return (
     <div className='maincontainer'>
-      <div className="max-w-3xl mx-auto mt-10 mb-10 px-4 sm:py-5">
+      <div className=''>
+ <div className="max-w-3xl mx-auto mt-10 mb-10  py-6">
         <h2 className="md:text-5xl text-2xl font-bold text-center mb-10">Frequently Asked Questions</h2>
 
         <div className="space-y-4">
@@ -16,7 +17,7 @@ export default function FaqSection() {
               className="flex justify-between items-center cursor-pointer"
               onClick={() => setOpen(open === 1 ? null : 1)}
             >
-              <h3 className="text-purple-800 font-semibold text-[21px]">
+              <h3 className="text-purple-900 font-semibold text-[21px]">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit
               </h3>
               <span className={`transform transition-transform ${open === 1 ? 'rotate-45' : ''}`}>+</span>
@@ -61,6 +62,8 @@ export default function FaqSection() {
           </div>
         </div>
       </div>
+      </div>
+     
     </div>
   );
 }

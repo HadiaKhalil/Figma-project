@@ -3,12 +3,12 @@ import React from 'react'
 const Mission = () => {
   return (
     <div className='maincontainer '>
-      <section className="mb-18  px-4">
+      <section className="mb-18 ">
         <h2 className="text-[30px] md:text-[35px] lg:text-[45px] lg:text-start text-center leading-[35px] md:leading-[40px] lg:leading-[55px] tracking-[0px] mb-8 font-bold">
           {`Lorem ipsum dolor sit amet, consectetur adipiscing`}
         </h2>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
-          <div className="mb-10 p-6 bg-[#FDF5FF] rounded-2xl shadow-lg ">
+          <div className="mb-10 p-6 bg-[#FDF5FF] rounded-2xl  ">
             <div className='flex gap-6'>
               <div className='bg-purple-800 w-16 h-16 rounded-full'>
               </div>

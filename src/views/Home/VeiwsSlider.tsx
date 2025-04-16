@@ -34,7 +34,7 @@ const ViewsSlider = () => {
             See More Views <span>›</span>
           </p>
         </div>
-        <div className="-mx-2"> {/* remove container padding clash */}
+        <div> 
           <Swiper
             modules={[Pagination]}
             spaceBetween={20}
