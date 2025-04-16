@@ -38,7 +38,7 @@ const Navbar = () => {
 
           {/* Right Side (Desktop) */}
           <div className="hidden lg:flex items-center gap-4">
-          <a className="font-inter font-bold text-[12px] sm:text-[14px] leading-[20px] sm:leading-[24px] tracking-[0px] text-center bg-[#4ACAC6] text-white px-4 py-1 sm:px-6 sm:py-2 rounded-[30px] hover:bg-[#3aa8a5] transition-colors duration-300 whitespace-nowrap" href="/JoinUs">Join now!</a>
+          <a className="font-inter font-bold text-[12px] sm:text-[14px] leading-[20px] sm:leading-[24px] tracking-[0px] text-center bg-[#4ACAC6] text-white px-4 py-1 sm:px-6 sm:py-2 rounded-[30px] hover:bg-[#3aa8a5] transition-colors duration-300 whitespace-nowrap" href="/JoinUs">{`Join now!`}</a>
 
             {/* Flag Image */}
             <div className="flex items-center cursor-pointer">
@@ -105,7 +105,7 @@ const Navbar = () => {
             <li>
 
            
-            <a className="font-inter font-bold text-[14px] leading-[45px] tracking-[0px] text-center bg-[#4ACAC6] text-white px-6 py-1 rounded-[30px]" href="/">Join now!</a>
+            <a className="font-inter font-bold text-[14px] leading-[45px] tracking-[0px] text-center bg-[#4ACAC6] text-white px-6 py-1 rounded-[30px]" href="/">{`Join now!`}</a>
             </li>
           </div>
         )}
