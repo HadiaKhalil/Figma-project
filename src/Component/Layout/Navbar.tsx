@@ -2,10 +2,11 @@
 
 import React, { useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import { FaEnvelope, FaShoppingCart, FaUser, FaBars, FaTimes } from 'react-icons/fa';
 
 const Navbar = () => {
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false); // State for mobile menu
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
     <div className="w-full bg-white shadow-md">
@@ -27,25 +28,29 @@ const Navbar = () => {
           {/* Navigation Links (Desktop) */}
           <div className="hidden lg:flex items-center">
             <div className="font-poppins font-semibold space-x-6 text-[14px] leading-[21px] tracking-[0px] text-[#434343] hover:text-[#9B37AE] hover:underline">
-              <a href="#">Home</a>
-              <a href="#">About</a>
-              <a href="#">Products</a>
-              <a href="#">Testimonials</a>
-              <a href="#">FAQ</a>
-              <a href="#">Contact</a>
+              <Link href="#"><a>Home</a></Link>
+              <Link href="#"><a>About</a></Link>
+              <Link href="#"><a>Products</a></Link>
+              <Link href="#"><a>Testimonials</a></Link>
+              <Link href="#"><a>FAQ</a></Link>
+              <Link href="#"><a>Contact</a></Link>
             </div>
           </div>
 
           {/* Right Side (Desktop) */}
           <div className="hidden lg:flex items-center gap-4">
-          <a className="font-inter font-bold text-[12px] sm:text-[14px] leading-[20px] sm:leading-[24px] tracking-[0px] text-center bg-[#4ACAC6] text-white px-4 py-1 sm:px-6 sm:py-2 rounded-[30px] hover:bg-[#3aa8a5] transition-colors duration-300 whitespace-nowrap" href="/JoinUs">{`Join now!`}</a>
+            <Link href="/JoinUs">
+              <a className="font-inter font-bold text-[12px] sm:text-[14px] leading-[20px] sm:leading-[24px] tracking-[0px] text-center bg-[#4ACAC6] text-white px-4 py-1 sm:px-6 sm:py-2 rounded-[30px] hover:bg-[#3aa8a5] transition-colors duration-300 whitespace-nowrap">
+                Join now!
+              </a>
+            </Link>
 
             {/* Flag Image */}
             <div className="flex items-center cursor-pointer">
               <Image
-                src="/images/gb 1.png" // The flag image
-                height={16} // Adjust the height as needed
-                width={22}  // Adjust the width as needed
+                src="/images/gb 1.png"
+                height={16}
+                width={22}
                 alt="Flag"
                 className="rounded-sm"
               />
@@ -58,7 +63,7 @@ const Navbar = () => {
             <FaUser className="text-gray-600 text-2xl cursor-pointer" />
           </div>
 
-          {/* Mobile Menu Button (visible on small screens) */}
+          {/* Mobile Menu Button */}
           <div className="lg:hidden flex items-center">
             <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
               {isMobileMenuOpen ? (
@@ -70,23 +75,21 @@ const Navbar = () => {
           </div>
         </div>
 
-        {/* Mobile Navigation Links and Icons (visible on small screens) */}
+        {/* Mobile Navigation */}
         {isMobileMenuOpen && (
           <div className="lg:hidden flex flex-col px-4 bg-white shadow-md mt-4 space-y-4">
-            <a href="#" className="py-2 text-gray-700">Home</a>
-            <a href="#" className="py-2 text-gray-700">About</a>
-            <a href="#" className="py-2 text-gray-700">Products</a>
-            <a href="#" className="py-2 text-gray-700">Testimonials</a>
-            <a href="#" className="py-2 text-gray-700">FAQ</a>
-            <a href="#" className="py-2 text-gray-700">Contact</a>
+            <Link href="#"><a className="py-2 text-gray-700">Home</a></Link>
+            <Link href="#"><a className="py-2 text-gray-700">About</a></Link>
+            <Link href="#"><a className="py-2 text-gray-700">Products</a></Link>
+            <Link href="#"><a className="py-2 text-gray-700">Testimonials</a></Link>
+            <Link href="#"><a className="py-2 text-gray-700">FAQ</a></Link>
+            <Link href="#"><a className="py-2 text-gray-700">Contact</a></Link>
 
-            {/* Buttons and Icons inside Mobile Menu */}
             <div className="flex items-center justify-between mt-4">
-              {/* Flag Image */}
               <div className="flex px-2 gap-2">
-                <div className="flex items-center cursor-pointer ">
+                <div className="flex items-center cursor-pointer">
                   <Image
-                    src="/images/gb 1.png" // The flag image
+                    src="/images/gb 1.png"
                     height={16}
                     width={22}
                     alt="Flag"
@@ -101,12 +104,11 @@ const Navbar = () => {
               </div>
             </div>
 
-            {/* Larger Join Now Button */}
-            <li>
-
-           
-            <a className="font-inter font-bold text-[14px] leading-[45px] tracking-[0px] text-center bg-[#4ACAC6] text-white px-6 py-1 rounded-[30px]" href="/">{`Join now!`}</a>
-            </li>
+            <Link href="/JoinUs">
+              <a className="font-inter font-bold text-[14px] leading-[45px] tracking-[0px] text-center bg-[#4ACAC6] text-white px-6 py-1 rounded-[30px] w-full">
+                Join now!
+              </a>
+            </Link>
           </div>
         )}
       </div>
