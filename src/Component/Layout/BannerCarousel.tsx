@@ -5,9 +5,9 @@
 import React, { useState, useEffect } from 'react';
 
 const messages = [
-  '{`NEW COLLECTION AVAILABLE`}',
-  '{`FREE SHIPPING OPVER $xx`}',
-  '{`LIMITED TIME OFFER`}',
+  'NEW COLLECTION AVAILABLE',
+  'FREE SHIPPING OPVER $xx',
+  'LIMITED TIME OFFER',
 ];
 
 const BannerCarousel = () => {
