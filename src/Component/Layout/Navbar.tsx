@@ -28,21 +28,21 @@ const Navbar = () => {
           {/* Navigation Links (Desktop) */}
           <div className="hidden lg:flex items-center">
             <div className="font-poppins font-semibold space-x-6 text-[14px] leading-[21px] tracking-[0px] text-[#434343] hover:text-[#9B37AE] hover:underline">
-              <Link href="#"><a>Home</a></Link>
-              <Link href="#"><a>About</a></Link>
-              <Link href="#"><a>Products</a></Link>
-              <Link href="#"><a>Testimonials</a></Link>
-              <Link href="#"><a>FAQ</a></Link>
-              <Link href="#"><a>Contact</a></Link>
+              <Link href="#">Home</Link>
+              <Link href="#">About</Link>
+              <Link href="#">Products</Link>
+              <Link href="#">Testimonials</Link>
+              <Link href="#">FAQ</Link>
+              <Link href="#">Contact</Link>
             </div>
           </div>
 
           {/* Right Side (Desktop) */}
           <div className="hidden lg:flex items-center gap-4">
             <Link href="/JoinUs">
-              <a className="font-inter font-bold text-[12px] sm:text-[14px] leading-[20px] sm:leading-[24px] tracking-[0px] text-center bg-[#4ACAC6] text-white px-4 py-1 sm:px-6 sm:py-2 rounded-[30px] hover:bg-[#3aa8a5] transition-colors duration-300 whitespace-nowrap">
+              <span className="font-inter font-bold text-[12px] sm:text-[14px] leading-[20px] sm:leading-[24px] tracking-[0px] text-center bg-[#4ACAC6] text-white px-4 py-1 sm:px-6 sm:py-2 rounded-[30px] hover:bg-[#3aa8a5] transition-colors duration-300 whitespace-nowrap cursor-pointer">
                 Join now!
-              </a>
+              </span>
             </Link>
 
             {/* Flag Image */}
@@ -78,12 +78,12 @@ const Navbar = () => {
         {/* Mobile Navigation */}
         {isMobileMenuOpen && (
           <div className="lg:hidden flex flex-col px-4 bg-white shadow-md mt-4 space-y-4">
-            <Link href="#"><a className="py-2 text-gray-700">Home</a></Link>
-            <Link href="#"><a className="py-2 text-gray-700">About</a></Link>
-            <Link href="#"><a className="py-2 text-gray-700">Products</a></Link>
-            <Link href="#"><a className="py-2 text-gray-700">Testimonials</a></Link>
-            <Link href="#"><a className="py-2 text-gray-700">FAQ</a></Link>
-            <Link href="#"><a className="py-2 text-gray-700">Contact</a></Link>
+            <Link href="#">Home</Link>
+            <Link href="#">About</Link>
+            <Link href="#">Products</Link>
+            <Link href="#">Testimonials</Link>
+            <Link href="#">FAQ</Link>
+            <Link href="#">Contact</Link>
 
             <div className="flex items-center justify-between mt-4">
               <div className="flex px-2 gap-2">
@@ -105,9 +105,9 @@ const Navbar = () => {
             </div>
 
             <Link href="/JoinUs">
-              <a className="font-inter font-bold text-[14px] leading-[45px] tracking-[0px] text-center bg-[#4ACAC6] text-white px-6 py-1 rounded-[30px] w-full">
+              <span className="font-inter font-bold text-[14px] leading-[45px] tracking-[0px] text-center bg-[#4ACAC6] text-white px-6 py-1 rounded-[30px] w-full cursor-pointer">
                 Join now!
-              </a>
+              </span>
             </Link>
           </div>
         )}
