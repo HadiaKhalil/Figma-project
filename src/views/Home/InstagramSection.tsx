@@ -13,14 +13,14 @@ export default function InstagramSection() {
             <span className="text-teal-500">@ambrosiaglobal</span>
           </h2>
 
-          {/* Subtext */}
+       
           <p className="sm:text-lg text-[15px] mt-4 text-gray-700">
             Lorem ipsum dolor sit <span className="text-purple-600">@ambrosiaglobal</span>
           </p>
 
-          {/* Image Grid */}
+       
           <div className="mt-10 grid lg:grid-cols-6 md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-6 w-full">
-            <div className="relative aspect-square rounded-xl overflow-hidden shadow-md">
+            <div className="relative">
               <Image src="/images/img1.png" alt="Card 1" fill className="object-cover" />
             </div>
             <div className="relative aspect-square rounded-xl overflow-hidden shadow-md">

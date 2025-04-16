@@ -13,6 +13,7 @@ import ViewsSlider from "./VeiwsSlider";
 import Reverce from "./Reverce";
 import Questionsec from "./Questionsec"
 import InstagramSection from "./InstagramSection";
+import VIPSignup from "./VIPSignup";
 const Home = () => {
   return (
     <Layout >
@@ -28,6 +29,7 @@ const Home = () => {
       <ViewsSlider />
       <Questionsec />
       <InstagramSection />
+      <VIPSignup />
     </Layout>
 
   );
