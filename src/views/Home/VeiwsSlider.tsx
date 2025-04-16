@@ -12,7 +12,7 @@ const cards = [
   { title: 'Lorem Ipsum', content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.' },
   { title: 'Lorem Ipsum', content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.' },
   { title: 'Lorem Ipsum', content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.' },
-  { title: 'Lorem Ipsum', content:  'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.' },
+  { title: 'Lorem Ipsum', content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.' },
   { title: 'Lorem Ipsum', content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.' },
   { title: 'Lorem Ipsum', content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.' },
   { title: 'Lorem Ipsum', content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.' },
@@ -20,23 +20,20 @@ const cards = [
 
 const ViewsSlider = () => {
   return (
-  <div className="maincontainer">
+    <div className="maincontainer">
       <div className=' mt-4  md:mt-16'>
         <h1 className="md:text-3xl text-2xl lg:text-5xl font-bold font-tahoma mb-4 text-black">
           Lorem ipsum dolor sit amet <br className="hidden sm:block" />
           consectetur adipiscing elit
         </h1>
-
         <p className="md:text-lg text-base text-gray-600 mb-6">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do 
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do
         </p>
-
         <div className="flex justify-between items-center mb-6">
           <p className="text-lg font-semibold cursor-pointer hover:underline flex items-center gap-1">
             See More Views <span>›</span>
           </p>
         </div>
-
         <div className="-mx-2"> {/* remove container padding clash */}
           <Swiper
             modules={[Pagination]}

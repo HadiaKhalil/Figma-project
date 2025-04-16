@@ -70,7 +70,6 @@ export default function OptimalSection() {
   return (
     <div className="maincontainer">
       <div className="flex md:flex-row items-center gap-8 mb-12 flex-col-reverse">
-        
         <div className="md:w-1/2 w-full">
           <h2 className="text-[#1E1E1E] text-[30px] lg:text-[44px] leading-[34px] lg:leading-[55px] font-bold mb-4">
             WHAT IS OPTIMAL HEALTH?

@@ -1,20 +1,13 @@
 import React from 'react'
 import { SquareCheck } from "lucide-react";
 import Image from "next/image";
-
-
-
 const Reverce = () => {
-  return (
-   
+    return (
         <div className="maincontainer" >
-
-
             <div className="flex  md:flex-row items-center gap-8 mb-12 flex-col-reverse    ">
-
                 <div className="md:w-1/2 w-full">
                     <h2 className="text-[#1E1E1E]  text-[30px] lg:text-[44px] leading-[34px] lg:leading-[55px] font-bold mb-4">
-                    IF HEALTH, TIME AND MONEY WERE NOT AN ISSUE...
+                        IF HEALTH, TIME AND MONEY WERE NOT AN ISSUE...
                     </h2>
                     <ul className="space-y-4 mb-4">
                         <li className="flex items-start gap-2">
@@ -22,7 +15,7 @@ const Reverce = () => {
                                 <SquareCheck size={20} />
                             </div>
                             <p className="text-gray-700 md:text-[16px] text-[14px]">
-                            With whom would you spend your time with?
+                                With whom would you spend your time with?
                             </p>
                         </li>
                         <li className="flex items-start gap-2">
@@ -30,7 +23,7 @@ const Reverce = () => {
                                 <SquareCheck size={20} />
                             </div>
                             <p className="text-gray-700 md:text-[16px] text-[14px]">
-                            Where are some of the places you would visit?
+                                Where are some of the places you would visit?
                             </p>
                         </li>
                         <li className="flex items-start gap-2">
@@ -38,7 +31,7 @@ const Reverce = () => {
                                 <SquareCheck size={20} />
                             </div>
                             <p className="text-gray-700 md:text-[16px] text-[14px]">
-                            What special moments would you create for your loved ones?
+                                What special moments would you create for your loved ones?
                             </p>
                         </li>
                     </ul>

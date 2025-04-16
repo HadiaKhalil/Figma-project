@@ -12,10 +12,9 @@ export default function ProductListing() {
 
   return (
     <>
-     <div className="bg-[#FDF5FF] py-10">
+      <div className="bg-[#FDF5FF] py-10">
         <div className='maincontainer'>
           <div>
-            {/* Header */}
             <header className=" mb-10">
               <div className=" lg:text-start text-center">
                 <h1 className="md:text-5xl text-2xl font-bold text-gray-900">Shop the Ambrosia Global</h1>
@@ -24,28 +23,23 @@ export default function ProductListing() {
                 </button>
               </div>
             </header>
-
-            {/* Main Content */}
-            <main>
-              <div className="flex justify-center">
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-8">
-                  {products.map((product) => (
-                    <div
-                      key={product.id}
-                      className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 text-center p-4"
-                    >
-                      <img
-                        src={product.image}
-                        alt={product.name}
-                        className="h-36 w-full object-contain rounded mb-3"
-                      />
-                      <h3 className="text-sm font-medium text-[#9B37AE]">{product.name}</h3>
-                    </div>
-                  ))}
-                </div>
+            <div className="flex justify-center">
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-8">
+                {products.map((product) => (
+                  <div
+                    key={product.id}
+                    className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 text-center p-4"
+                  >
+                    <img
+                      src={product.image}
+                      alt={product.name}
+                      className="h-36 w-full object-contain rounded mb-3"
+                    />
+                    <h3 className="text-sm font-medium text-[#9B37AE]">{product.name}</h3>
+                  </div>
+                ))}
               </div>
-            </main>
-
+            </div>
           </div>
         </div>
       </div>
