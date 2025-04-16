@@ -20,7 +20,7 @@ const cards = [
 
 const ViewsSlider = () => {
   return (
-  <div className="container">
+  <div className="maincontainer">
       <div className=' mt-4  md:mt-16'>
         <h1 className="md:text-3xl text-2xl lg:text-5xl font-bold font-tahoma mb-4 text-black">
           Lorem ipsum dolor sit amet <br className="hidden sm:block" />

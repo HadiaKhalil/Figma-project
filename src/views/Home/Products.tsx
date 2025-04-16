@@ -13,10 +13,10 @@ export default function ProductListing() {
   return (
     <>
      <div className="bg-[#FDF5FF] py-10">
-        <div className='container'>
+        <div className='maincontainer'>
           <div>
             {/* Header */}
-            <header className=" shadow-sm mb-10">
+            <header className=" mb-10">
               <div className=" lg:text-start text-center">
                 <h1 className="md:text-5xl text-2xl font-bold text-gray-900">Shop the Ambrosia Global</h1>
                 <button className="bg-[#9B37AE] hover:bg-purple-700 text-white font-bold py-4 px-8 rounded mt-5">

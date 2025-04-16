@@ -6,8 +6,8 @@ export default function FaqSection() {
   const [open, setOpen] = useState<number | null>(null);
 
   return (
-   <div className='container'>
- <div className="max-w-3xl mx-auto px-4 sm:py-5">
+   <div className='maincontainer'>
+ <div className="max-w-3xl mx-auto mt-10 mb-10 px-4 sm:py-5">
       <h2 className="md:text-5xl text-2xl font-bold text-center mb-10">Frequently Asked Questions</h2>
 
       <div className="space-y-4">

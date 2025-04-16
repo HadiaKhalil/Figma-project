@@ -4,7 +4,8 @@ import Image from "next/image";
 
 const Optimalreverse = () => {
   return (
-    <div className="container px-4 mx-auto">
+    <div className="maincontainer  ">
+      <div className='px-4'>
       <div className="flex flex-col md:flex-row items-center gap-6 mb-12">
         
         <div className="md:w-1/2 w-full">
@@ -52,6 +53,8 @@ const Optimalreverse = () => {
           </button>
         </div>
         </div>
+      </div>
+     
        </div>
   );
 };

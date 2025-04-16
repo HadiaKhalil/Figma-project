@@ -3,7 +3,7 @@ import Image from "next/image";
 const AboutUs = () => {
     return (
         <>
-            <div className='container'>
+            <div className='maincontainer'>
                 <div className='flex flex-col  items-center gap-8 mb-12 md:flex-row'>
                     <div className="md:w-1/2 w-full">
                         <Image

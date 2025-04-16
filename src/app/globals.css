@@ -26,9 +26,9 @@ body{
   color: black;
 }
 
-.container{
-  @apply  mx-auto
-    px-4 mb-12;
+.maincontainer{
+  @apply  max-w-[1440px] mx-auto
+   md:px-14 px-4 ;
  
 
 }

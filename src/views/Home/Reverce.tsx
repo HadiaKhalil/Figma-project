@@ -7,7 +7,7 @@ import Image from "next/image";
 const Reverce = () => {
   return (
    
-        <div className="container" >
+        <div className="maincontainer" >
 
 
             <div className="flex  md:flex-row items-center gap-8 mb-12 flex-col-reverse    ">

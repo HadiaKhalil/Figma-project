@@ -68,7 +68,7 @@ const points = [
 
 export default function OptimalSection() {
   return (
-    <div className="container">
+    <div className="maincontainer">
       <div className="flex md:flex-row items-center gap-8 mb-12 flex-col-reverse">
         
         <div className="md:w-1/2 w-full">

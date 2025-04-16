@@ -2,8 +2,8 @@ import React from 'react'
 
 const Mission = () => {
   return (
-    <div className='container mx-auto px-4'>
-      <section className="mb-16">
+    <div className='maincontainer '>
+      <section className="mb-18  px-4">
         <h2 className="text-[30px] md:text-[35px] lg:text-[45px] lg:text-start text-center leading-[35px] md:leading-[40px] lg:leading-[55px] tracking-[0px] mb-8 font-bold">
           {`Lorem ipsum dolor sit amet, consectetur adipiscing`}
         </h2>
