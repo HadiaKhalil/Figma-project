@@ -24,22 +24,22 @@ export default function InstagramSection() {
 
         <div className="mt-10 grid lg:grid-cols-6 md:grid-cols-4 sm:grid-cols-2 grid-cols-1  gap-6 w-full">
           <div className=" rounded-xl overflow-hidden shadow-md">
-            <img src="/images/img1.png" alt="Card 1" className=" object-cover" />
+            <Image src="/images/img1.png" alt="Card 1" className=" object-cover" />
           </div>
           <div className=" rounded-xl overflow-hidden shadow-md">
-            <img src="/images/img1.png" alt="Card 2" className=" object-cover" />
+            <Image src="/images/img1.png" alt="Card 2" className=" object-cover" />
           </div>
           <div className=" rounded-xl overflow-hidden shadow-md">
-            <img src="/images/img1.png" alt="Card 3" className=" object-cover" />
+            <Image src="/images/img1.png" alt="Card 3" className=" object-cover" />
           </div>
           <div className=" rounded-xl overflow-hidden shadow-md">
-            <img src="/images/img1.png" alt="Card 4" className=" object-cover" />
+            <Image src="/images/img1.png" alt="Card 4" className=" object-cover" />
           </div>
           <div className=" rounded-xl overflow-hidden shadow-md">
-            <img src="/images/img1.png" alt="Card 5" className=" object-cover" />
+            <Image src="/images/img1.png" alt="Card 5" className=" object-cover" />
           </div>
           <div className=" rounded-xl overflow-hidden shadow-md">
-            <img src="/images/img1.png" alt="Card 5" className=" object-cover" />
+            <Image src="/images/img1.png" alt="Card 5" className=" object-cover" />
           </div>
         </div>
       </div>
