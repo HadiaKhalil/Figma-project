@@ -77,7 +77,7 @@ const Navbar = () => {
 
         {/* Mobile Navigation */}
         {isMobileMenuOpen && (
-          <div className="lg:hidden flex flex-col px-4 bg-white shadow-md mt-4 space-y-4">
+          <div className="lg:hidden flex flex-col mt-4 pb-5 space-y-4">
             <Link href="#">Home</Link>
             <Link href="#">About</Link>
             <Link href="#">Products</Link>
@@ -86,7 +86,7 @@ const Navbar = () => {
             <Link href="#">Contact</Link>
 
             <div className="flex items-center justify-between mt-4">
-              <div className="flex px-2 gap-2">
+              <div className="flex  gap-4">
                 <div className="flex items-center cursor-pointer">
                   <Image
                     src="/images/gb 1.png"
@@ -105,7 +105,7 @@ const Navbar = () => {
             </div>
 
             <Link href="/JoinUs">
-              <span className="font-inter font-bold text-[14px] leading-[45px] tracking-[0px] text-center bg-[#4ACAC6] text-white px-6 py-1 rounded-[30px] w-full cursor-pointer">
+              <span className="font-inter font-bold text-[14px] leading-[45px] tracking-[0px] text-center bg-[#4ACAC6] text-white px-6 py-2  rounded-[30px] w-full cursor-pointer">
                 Join now!
               </span>
             </Link>
